@@ -71,6 +71,8 @@ export default class SortableList {
     if (!elemBelow) return;
     const elFromList = elemBelow.closest('.sortable-list__item');
     if (!elemBelow.closest('.sortable-list__placeholder') && elFromList) {
+      const placeHoldIndex = [...this.element.children].indexOf(elFromList);
+      if (placeHoldIndex > this.element.children.length || placeHoldIndex < 0) return;
       const direction = elFromList.getBoundingClientRect().top > this.placeholderElem.getBoundingClientRect().top
         ? 1 : 0;
       this.movePlaceholderAt(elFromList, direction);

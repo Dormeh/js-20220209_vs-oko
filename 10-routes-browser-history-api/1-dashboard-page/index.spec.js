@@ -60,4 +60,5 @@ describe('routes-browser-history-api/dashboard-page', () => {
 
     expect(dashboardPage.element).not.toBeInTheDocument();
   });
+  console.log(merge({a: {b:2}}, {a: {b:{c:3}}}));
 });

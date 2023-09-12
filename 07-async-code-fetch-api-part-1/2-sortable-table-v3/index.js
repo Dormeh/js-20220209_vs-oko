@@ -107,6 +107,7 @@ export default class SortableTable {
   }
 
   async loadData(id, order) {
+    console.log(this.url);
     this.url.searchParams.set('_sort', id);
     this.url.searchParams.set('_order', order);
     this.url.searchParams.set("_start", this.data.length);

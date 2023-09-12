@@ -84,4 +84,5 @@ export default class ColumnChart {
 
   destroy() {
     this.remove();
-  }}
+  }
+}
