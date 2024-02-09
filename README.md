@@ -1,22 +1,19 @@
-## To start project:
+## Admin dashboard components with tasks
+
+### To start project:
 
 Для старта проекта необходимо выполнить следующие команды:
 
 * `npm install` - установит необходимые зависимости
 
-**Note:** У вас уже должна быть установлена Nodejs 
-Проверить текущие версии можно набрав в консоли/терминале следующие команды: `node -v` и `npm -v`.
-
 Версии требуемые проектом указаны в `package.json` в поле `engines`  
 
-## To run tests:
-
-### To run all tests
+#### To run all tests
 Чтобы запустить тесты, воспользуйтесь командой:
 
 `npm run test:all`
 
-### To run tests from a specific directory
+#### To run tests from a specific directory
 
 Чтобы запустить тесты из определенной директории, воспользуйтесь командой:
 
@@ -41,3 +38,5 @@
 
 выполнит только блок `it` с соответствующим названием.  
 Более подробно про запуск тестов можно посмотреть в документации [Jest](https://jestjs.io/docs/en/cli.html#--testnamepatternregex)
+
+###### P.S. компоненты для финального проекта курса JS для программистов. [Продолжение...](https://github.com/Dormeh/admin_shop_dashboard)
